@@ -22,7 +22,7 @@
         </div>
 
         <div class="form-row">
-            <ul style="background: #fff; min-width: 600px; margin-bottom: 20px;" id="node-config-swagger-tabs"></ul>
+            <ul style="min-width: 600px; margin-bottom: 20px;" id="node-config-swagger-tabs"></ul>
         </div>
 
         <div id="node-config-swagger-tabs-content" style="min-height: 350px">
@@ -360,11 +360,11 @@ var swaggerDocUrl;
             */
             var generateParameterLine = function(opts, expand) {
                 var li = $("<li/>", {
-                    style: "background: #fff; margin:4px 0; border: 1px solid #ccc;"
+                    style: "margin:4px 0; border: 1px solid #ccc;"
                 }).appendTo("#node-config-parameter-list");
 
                 var row1 = $("<div/>", {
-                    style: "background:#f3f3f3; padding: 5px;"
+                    style: "padding: 5px;"
                 }).appendTo(li);
                 var remove = $('<a/>', {
                     href: "#",
@@ -591,11 +591,11 @@ var swaggerDocUrl;
             */
             var generateResponseLine = function(opts, expand) {
                 var li = $("<li/>", {
-                    style: "background: #fff; margin:4px 0; border: 1px solid #ccc;"
+                    style: "margin:4px 0; border: 1px solid #ccc;"
                 }).appendTo("#node-config-response-list");
 
                 var row1 = $("<div/>", {
-                    style: "background:#f3f3f3; padding: 5px;"
+                    style: "padding: 5px;"
                 }).appendTo(li);
                 var remove = $('<a/>', {
                     href: "#",
